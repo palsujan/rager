@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* app background + subtle stars */
+body {
+  @apply bg-base-900 text-text-body;
+  background-image:
+    radial-gradient(1000px 600px at 70% -200px, #182041 0%, transparent 60%),
+    radial-gradient(800px 500px at -200px 20%, #101733 0%, transparent 60%),
+    radial-gradient(2px 2px at 20% 30%, rgba(255,255,255,.12) 0, transparent 100%),
+    radial-gradient(2px 2px at 80% 70%, rgba(255,255,255,.07) 0, transparent 100%);
+  background-repeat: no-repeat;
+}
