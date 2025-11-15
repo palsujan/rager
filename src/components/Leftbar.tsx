@@ -12,7 +12,7 @@ import SidebarTile from "./SidebarTile";  // ✅ use the new one only
 type Item = { icon: any; label: string; badge?: string; soon?: boolean };
 
 export default function Leftbar() {
-  const [collapsed, setCollapsed] = useState(false);
+  const [collapsed] = useState(false);
 
   const items: Item[] = [
     { icon: Trophy, label: "Bonus", badge: "200%" },

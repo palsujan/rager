@@ -1,8 +1,10 @@
 import { motion } from "framer-motion";
 import React from "react";
 
-type Props = React.ButtonHTMLAttributes<HTMLButtonElement> & {
+type Props = {
   children: React.ReactNode;
+  className?: string;
+  [key: string]: any;
 };
 
 const NeonButton = ({ className = "", children, ...rest }: Props) => {

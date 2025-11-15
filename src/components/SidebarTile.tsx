@@ -6,7 +6,6 @@ export default function SidebarTile({
   label,
   art,
   comingSoon,
-  dimmed,
   hoverColor,
 }: {
   collapsed: boolean;
